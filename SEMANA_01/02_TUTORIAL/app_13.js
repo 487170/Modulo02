@@ -8,10 +8,11 @@ var port = 3013;
 // Cria o servidor
 var app = express();
 
-app.get('/', (req, res) => {
+app.get('/usuario', (req, res) => {
 	req.query.nome
+	req.query.tel
 	res.write("<h1> Etapa 1 - INSTALACAO - EndPoint GET</h1>")
-	res.end("<h2>Hello " + req.query.nome + " voce conseguiu um GET! bem sucedido</h2>");
+	res.end("<h2>Hello " + req.query.nome + " voce conseguiu um GET! bem sucedido</h2>" + req.query.tel);
 });
 
 // Inicia o servidor
