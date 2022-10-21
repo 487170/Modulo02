@@ -1,6 +1,6 @@
 Bom dia professor,
 
-Segue abaixo a atividade da semana 2 do modelo fisico conforme solicitado:
+Segue abaixo a atividade da semana 2 referente ao modelo fisico conforme solicitado:
 
 CREATE TABLE "EXPERIENCIA" (
 	"ID_UDUARIO"	INTEGER NOT NULL,
