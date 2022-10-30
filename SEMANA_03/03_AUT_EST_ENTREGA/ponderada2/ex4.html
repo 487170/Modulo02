@@ -9,26 +9,34 @@
         .fim{
             text-align: center;
         }
+        .ex4{
+            text-align: center;
+        }
     </style>
-   
 </head>
 <body>
-    <div class="cabeçalho">
-        <fieldset>
+    <fieldset>
         <marquee><b>COMPRE O NOSSO SOFTWARE QUE IRÁ RESOLVER TODOS OS SEUS PROBLEMAS DE MATEMATICA POR APENAS R$2,50 - PROMOÇÃO ATÉ O FIM DE 2025 - NÃO PERCA ESSA OPORTUNIDADE - DESCONTO VALIDO APENAS PARA ALUNO INTELI</b></marquee>
     </fieldset> 
-    <p>SEGUE ABAIXO OS SERVIÇOS QUE OFERECEMOS ATUALMENTE:</p>
-    <br>
-    <a href="ex1.html">EX1 - Calculo de lançamento vertical</a> 
-    <br>
-    <a href="ex2.html">EX2 - Calculo de ponto maximo/ponto minimo</a> 
-    <br>
-    <a href="ex3.html">EX3 - Converter temperatura</a>
-    <br>
-    <a href="ex4.html">EX4 - Calculo de consumo de energia</a>
+    <a href="index.html">VOLTAR</a>
+
+    <div class="ex4">
+    <h1>Exercicio 4</h1>
+    <h2>Consumo de energia</h2>
+    <form nome="ex4" method="get">
+    Kwh: <input type="number" nwame="Kh" id="Kwh"  value="">
+    Valor Kwh: <input type="number" name="valorKwh" id="valorKwh" value="">
+    <input type="button" name="botao" value="Calcule sua conta" onclick="totalPagar();"></input>
+    </form>
+    </div>
+    
+    <div id="resultadoConta"></div>
+    
     <br><br><br>
+    
     <img src="c:\Users\luiz_\Documentos\inteli\modulo02\atividades_ponderadas\Modulo02\SEMANA_03\03_AUT_EST_ENTREGA\ponderada2\ad.png">
     <p class="fim"> SERVIMOS BEM PARA SERVIR SEMPRE</p>
     <script src="calculo.js"></script>
+
 </body>
 </html>

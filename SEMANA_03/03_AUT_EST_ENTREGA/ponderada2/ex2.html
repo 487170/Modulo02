@@ -9,26 +9,37 @@
         .fim{
             text-align: center;
         }
+        .ex2{
+            text-align: center;
+        }
     </style>
-   
 </head>
 <body>
-    <div class="cabeçalho">
-        <fieldset>
+    <fieldset>
         <marquee><b>COMPRE O NOSSO SOFTWARE QUE IRÁ RESOLVER TODOS OS SEUS PROBLEMAS DE MATEMATICA POR APENAS R$2,50 - PROMOÇÃO ATÉ O FIM DE 2025 - NÃO PERCA ESSA OPORTUNIDADE - DESCONTO VALIDO APENAS PARA ALUNO INTELI</b></marquee>
     </fieldset> 
-    <p>SEGUE ABAIXO OS SERVIÇOS QUE OFERECEMOS ATUALMENTE:</p>
-    <br>
-    <a href="ex1.html">EX1 - Calculo de lançamento vertical</a> 
-    <br>
-    <a href="ex2.html">EX2 - Calculo de ponto maximo/ponto minimo</a> 
-    <br>
-    <a href="ex3.html">EX3 - Converter temperatura</a>
-    <br>
-    <a href="ex4.html">EX4 - Calculo de consumo de energia</a>
+    <a href="index.html">VOLTAR</a>
+    <div class="ex2">
+    <h1>Exercicio 2</h1>
+    <h2>Ponto de maxímo/mínimo</h2>
+    <form nome="ex2" method="get">
+        a: <input type="number" name="a" id="a" value="">
+        b: <input type="number" name="b" id="b" value="">
+        c: <input type="number" name="c" id="c" value="">
+        <input type="button" name="botao" value="Calcular Vx" onclick="calculaXv();"></input>
+        <input type="button" name="botao" value="Calcular Vy" onclick="calculaYv();"></input>  
+    </form>
+    </div>
+    
+    <div id="resultadoXv"></div>
+    
+    <div id="resultadoYv"></div>
+    
     <br><br><br>
+    
     <img src="c:\Users\luiz_\Documentos\inteli\modulo02\atividades_ponderadas\Modulo02\SEMANA_03\03_AUT_EST_ENTREGA\ponderada2\ad.png">
     <p class="fim"> SERVIMOS BEM PARA SERVIR SEMPRE</p>
     <script src="calculo.js"></script>
+
 </body>
 </html>

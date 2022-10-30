@@ -1,17 +1,17 @@
 function calculaVel0(){
     var vel0 = parseFloat (document.getElementById('V0').value);
-    document.getElementById('saida').innerHTML = vel0 / 10;
+    document.getElementById('saida').innerHTML = vel0 / 10 ;
 }
 
 function calculaHmax(){
     var vel0 = parseFloat (document.getElementById('V0').value);
-    document.getElementById('resultado').innerHTML = (vel0*vel0) / (2*10);
+    document.getElementById('resultado').innerHTML = (vel0*vel0) / (2*10) ;
 }
 
 function calculaXv(){
     var va = parseFloat (document.getElementById('a').value);
     var vb = parseFloat (document.getElementById('b').value);
-    document.getElementById('resultadoYv').innerHTML = (-(vb/(2*va)));
+    document.getElementById('resultadoXv').innerHTML = (-(vb/(2*va)));
 }
 
 function calculaYv(){
@@ -23,20 +23,20 @@ function calculaYv(){
 
 function changeToCelcius(){
     var tf = parseFloat (document.getElementById('temperatura').value);
-    document.getElementById('resultadoT').innerHTML = (((tf-32) / 9)*5);
+    document.getElementById('resultadoTc').innerHTML = (((tf-32) / 9)*5);
 }
 
 function changeToFahrenheit(){
     var tc = parseFloat (document.getElementById('temperatura').value);
-    document.getElementById('resultadoT').innerHTML = ((tc/5)*9+32);
+    document.getElementById('resultadoTf').innerHTML = ((tc/5)*9+32);
 }
     
 function totalPagar(){
     var Kwh = parseFloat (document.getElementById('Kwh').value);
     var valorKwh = parseFloat (document.getElementById('valorKwh').value);
     var resultado = (Kwh * valorKwh)
-    //document.getElementById('resultadoConta').innerHTML = (Kwh * valorKwh);
-    if(Kwh > 100 && Kwh < 200){
+    
+    if(Kwh > 100 && Kwh <= 200){
         var resultado = (resultado + (resultado*0.25));
         document.getElementById('resultadoConta').innerHTML = resultado;
     }else if(Kwh > 200){
