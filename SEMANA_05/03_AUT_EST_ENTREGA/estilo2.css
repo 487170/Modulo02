@@ -1,19 +1,19 @@
 *{
-    margin: 0;
-    padding: 0;
     list-style: none;   
    }
+
 body{
    width: 100%;
    color: #069;
    text-align: center;
    min-height: 100vh;
    font-weight: bold;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-family: Verdana, Tahoma, sans-serif;
    display: flex;
    justify-content: center;
    align-items: center;
    }
+
 .container{
       width: 50%;
       overflow-y: scroll;
@@ -21,14 +21,17 @@ body{
       padding: 15px 2%;
       box-shadow: 0 0 5px #069;
   }
+
 .container::-webkit-scrollbar{
       width: 14px;
       border: 1px solid #069;
   }
+
 .container::-webkit-scrollbar-thumb{
       background-color: #069;
       border-radius: 6px;
   }
+
 .hr_dados1{
    border-top: medium dashed #069;
    border-bottom: medium dashed #069;
@@ -37,6 +40,7 @@ body{
    padding: 0;
    text-align: center;
  }
+
 .hr_dados1::after {
    content: "LUIZ FERNANDO COVAS    ";
    display: inline-block;
@@ -46,6 +50,7 @@ body{
    padding: 0 0.3em;
    background: white;
  }
+
 .hr_01{
    border-top: medium dashed #069;
    border-bottom: medium dashed #069;
@@ -54,6 +59,7 @@ body{
    padding: 0;
    text-align: center;
  }
+
 .hr_01::after{
 content: 'Objetivo';
 display: inline;
@@ -63,6 +69,7 @@ font-size: 1.4em;
 padding: 0 0.3em;
 background-color: #fff;
  }
+
 .hr_02{
    border-top: medium dashed #069;
    border-bottom: medium dashed #069;
@@ -71,6 +78,7 @@ background-color: #fff;
    padding: 0;
    text-align: center;
    }
+
 .hr_02::after{
    content: 'Resumo';
    display: inline;
@@ -80,6 +88,7 @@ background-color: #fff;
    padding: 0 0.3em;
    background-color: #fff;
    }
+
 .hr_03{
    border-top: medium dashed #069;
    border-bottom: medium dashed #069;
@@ -88,6 +97,7 @@ background-color: #fff;
    padding: 0;
    text-align: center;
   }
+
  .hr_03::after{
   content: 'Formação';
   display: inline;
@@ -97,6 +107,7 @@ background-color: #fff;
   padding: 0 0.3em;
   background-color: #fff;
  }
+
 .hr_04{
    border-top: medium dashed #069;
    border-bottom: medium dashed #069;
@@ -105,6 +116,7 @@ background-color: #fff;
    padding: 0;
    text-align: center;
   }
+
 .hr_04::after{
   content: 'Experiência';
   display: inline;
@@ -114,6 +126,7 @@ background-color: #fff;
   padding: 0 0.3em;
   background-color: #fff;
  }
+
 .hr_05{
    border-top: medium dashed #069;
    border-bottom: medium dashed #069;
@@ -122,6 +135,7 @@ background-color: #fff;
    padding: 0;
    text-align: center;
  }
+
 .hr_05::after{
  content: 'Ferramentas';
  display: inline;
@@ -131,6 +145,7 @@ background-color: #fff;
  padding: 0 0.3em;
  background-color: #fff;
  }
+
 .hr_06{
    border-top: medium dashed #069;
    border-bottom: medium dashed #069;
@@ -139,6 +154,7 @@ background-color: #fff;
    padding: 0;
    text-align: center;
  }
+
 .hr_06::after{
   content: 'Idiomas';
   display: inline;
@@ -148,6 +164,7 @@ background-color: #fff;
   padding: 0 0.3em;
   background-color: #fff;
  }
+
  .hr_07{
    border-top: medium dashed #069;
    border-bottom: medium dashed #069;
@@ -156,6 +173,7 @@ background-color: #fff;
    padding: 0;
    text-align: center;
  }
+
 .hr_07::after{
    content: 'Conhecimento';
    display: inline;
@@ -165,6 +183,7 @@ background-color: #fff;
    padding: 0 0.3em;
    background-color: #fff;
    }
+
 .hr_08{
    border-top: medium dashed #069;
    border-bottom: medium dashed #069;
@@ -173,6 +192,7 @@ background-color: #fff;
    padding: 0;
    text-align: center;
  }
+
 .hr_08::after{
   content: 'Redes Sociais';
   display: inline;
@@ -182,6 +202,7 @@ background-color: #fff;
   padding: 0 0.3em;
   background-color: #fff;
   }
+
 .fab{
   cursor: pointer;
   margin: 5px;
@@ -190,9 +211,11 @@ background-color: #fff;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   }
+
 .fab:hover{
    -webkit-transform: scale(1.5);
    -moz-transform: scale(1.5);
    transform: scale(1.5);
    color: #000;
    }
+
