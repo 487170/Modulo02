@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculo.js"></script>
+    <title>Calc Reforma</title>
+</head>
+
+<body>
+    <div class="div-mae">
+        <form>
+            <div class="cabecalho">
+                <h1>Software Covas</h1>
+                <h2 class="pisca">O software que facilita a sua vida!</h2>
+            </div>
+            
+            <h3>Insira a altura e largura da parede em cm:</h3><input id="alturaParede"> <input id="larguraParede">
+
+            <h3>Insira a altura e largura do azulejo em cm:</h3><input id="alturaAzuleijo"> <input  id="larguraAzuleijo">
+            <br><br>
+            <div class="caixa-resultado">
+                <p>Deixamos claro que não nos responsabilizamos caso o resultado não seja o correto!
+                Qualquer duvida, entre em contato com a nossa central pelo telefone: 11 7070 - 7070
+                Se não der 70 de novo...</p>
+            </div>
+
+            <div class="resultadoSobra">
+                Deu isso aqui:<p id="resultadoSobra"></p>
+                
+            </div>
+
+            <input type="button" name="botao" value="Total de azulejos necessários sem a sobra" onclick="calcularReformaAzuleijos()"></input>
+            
+            <div class="resultadoSobra">
+                Deu isso aqui tambem: <p id="resultadoSemSobra"></p>
+            </div>
+
+            <input type="button" name="botao" value="Total de azulejos necessários com a sobra" onclick="calcularReformaAzuleijosSobra()"></input>
+
+        </form>
+    </div>
+</body>
+</html>
