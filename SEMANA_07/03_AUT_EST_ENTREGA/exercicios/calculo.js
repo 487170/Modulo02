@@ -18,11 +18,7 @@ function calcularReformaAzuleijosSobra(){
     document.getElementById("resultadoSemSobra").innerHTML = qtdAzuleijosSobra;
 }
 
-
-// function mostrarPi(){
-    
-
-    
+   
 // }
 
 function palindromo(){
@@ -60,6 +56,7 @@ function tabuada(){
 
 }
 
+// function mostrarPi(){
 function doPi(){
     numero = parseInt(document.getElementById("number").value);
     luiz = Math.ceil(numero/3)
