@@ -1,0 +1,103 @@
+/* Estrutura exercicios numero 1 */
+.cabecalho{
+    justify-content: center;
+    text-align: center;
+}
+
+.meses{
+    justify-content: center;
+    text-align: center;
+}
+
+.valor{
+    justify-content: center;
+    text-align: center;
+}
+
+.taxa{
+    justify-self: center;
+    text-align: center;
+}
+
+.borda{
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    border: 5px solid orangered;
+}
+
+.resultadoExercicio1{
+    justify-self: center;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#botao1{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#botao2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.divMae{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Estrutura exercicio numero 2 */
+
+.cabecalho2{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.respostaJuros{
+    justify-content: center;
+    text-align: center;
+}
+
+.montante{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 2%;
+}
+
+p{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.valorFrase{
+    justify-content: center;
+    text-align: center;
+}
+
+/* Estrutura exercicio 4 */
+.corpoSolucao{
+    justify-content: center;
+    text-align: center;
+}
